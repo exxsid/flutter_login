@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:login/screens/login_screen.dart';
+import '../utility/user_accounts.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -6,8 +8,11 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+  var login = Login();
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      body: login,
+    );
   }
 }

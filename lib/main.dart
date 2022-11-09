@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Log in',
       home: Home(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
