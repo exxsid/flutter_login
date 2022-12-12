@@ -13,17 +13,6 @@ class FormView extends StatelessWidget {
       margin: EdgeInsets.all(30),
       child: Column(
         children: [
-          Text(
-            'LISTAHAN',
-            style: TextStyle(
-              fontSize: 30,
-              fontWeight: FontWeight.bold,
-              letterSpacing: 5,
-            ),
-          ),
-          SizedBox(
-            height: 30,
-          ),
           usernameForm,
           SizedBox(
             height: 15,
